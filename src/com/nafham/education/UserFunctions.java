@@ -71,7 +71,7 @@ public class UserFunctions {
    	 params.add(new BasicNameValuePair("avatar",Avatar ));
    	 params.add(new BasicNameValuePair("son",Son ));
 	 params.add(new BasicNameValuePair("section",GradeID ));
-   	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+   	 params.add(new BasicNameValuePair("apiSecret", ""));
    	  json = jsonParser.makeHttpRequest(Register, "POST", params);
    	 return json;
    	
@@ -84,7 +84,7 @@ public class UserFunctions {
    	 List<NameValuePair> params = new ArrayList<NameValuePair>();
 
    	 params.add(new BasicNameValuePair("name", ""));
-   	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+   	 params.add(new BasicNameValuePair("apiSecret", ""));
    	  json = jsonParser.makeHttpRequest(Countries, "GET", params);
    	 return json;
     }
@@ -94,7 +94,7 @@ public class UserFunctions {
        
       	 // Building Parameters ( you can pass as many parameters as you want)
       	 List<NameValuePair> params = new ArrayList<NameValuePair>();
-      	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+      	 params.add(new BasicNameValuePair("apiSecret", ""));
       	  json = jsonParser.makeHttpRequest(UserTypes, "GET", params);
       	 return json;
        }
@@ -104,7 +104,7 @@ public class UserFunctions {
       
      	 // Building Parameters ( you can pass as many parameters as you want)
      	 List<NameValuePair> params = new ArrayList<NameValuePair>();
-     	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+     	 params.add(new BasicNameValuePair("apiSecret", ""));
      	  json = jsonParser.makeHttpRequest(Genders, "GET", params);
      	 return json;
       }
@@ -114,7 +114,7 @@ public class UserFunctions {
      
     	 // Building Parameters ( you can pass as many parameters as you want)
     	 List<NameValuePair> params = new ArrayList<NameValuePair>();
-    	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+    	 params.add(new BasicNameValuePair("apiSecret", ""));
     	  json = jsonParser.makeHttpRequest(Specailities, "GET", params);
     	 return json;
      }
@@ -124,7 +124,7 @@ public class UserFunctions {
     
    	 // Building Parameters ( you can pass as many parameters as you want)
    	 List<NameValuePair> params = new ArrayList<NameValuePair>();
-   	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+   	 params.add(new BasicNameValuePair("apiSecret", ""));
    	  json = jsonParser.makeHttpRequest(EducationsSystems, "GET", params);
    	 return json;
     }
@@ -134,7 +134,7 @@ public class UserFunctions {
        
       	 // Building Parameters ( you can pass as many parameters as you want)
       	 List<NameValuePair> params = new ArrayList<NameValuePair>();
-      	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+      	 params.add(new BasicNameValuePair("apiSecret", ""));
       	  json = jsonParser.makeHttpRequest(AllCountries, "GET", params);
       	 return json;
        }
@@ -144,7 +144,7 @@ public class UserFunctions {
       
      	 // Building Parameters ( you can pass as many parameters as you want)
      	 List<NameValuePair> params = new ArrayList<NameValuePair>();
-     	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+     	 params.add(new BasicNameValuePair("apiSecret", ""));
      	 params.add(new BasicNameValuePair("Governor_ID", Governor_ID));
      	  json = jsonParser.makeHttpRequest(Schools, "GET", params);
      	 return json;
@@ -155,7 +155,7 @@ public class UserFunctions {
       
      	 // Building Parameters ( you can pass as many parameters as you want)
      	 List<NameValuePair> params = new ArrayList<NameValuePair>();
-     	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+     	 params.add(new BasicNameValuePair("apiSecret", ""));
      	  json = jsonParser.makeHttpRequest(SchoolsTypes, "GET", params);
      	 return json;
       }
@@ -165,7 +165,7 @@ public class UserFunctions {
      
     	 // Building Parameters ( you can pass as many parameters as you want)
     	 List<NameValuePair> params = new ArrayList<NameValuePair>();
-    	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+    	 params.add(new BasicNameValuePair("apiSecret", ""));
     	  json = jsonParser.makeHttpRequest(JOBS, "GET", params);
     	 return json;
      }
@@ -175,7 +175,7 @@ public class UserFunctions {
     
    	 // Building Parameters ( you can pass as many parameters as you want)
    	 List<NameValuePair> params = new ArrayList<NameValuePair>();
-   	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+   	 params.add(new BasicNameValuePair("apiSecret", ""));
    	  json = jsonParser.makeHttpRequest(Faculities, "GET", params);
    	 return json;
     }
@@ -188,7 +188,7 @@ public class UserFunctions {
 
 	// params.add(new BasicNameValuePair("name", ""));
    params.add(new BasicNameValuePair("country_id", COUNtry_ID));
-	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+	 params.add(new BasicNameValuePair("apiSecret", ""));
 	  json = jsonParser.makeHttpRequest(Grades+COUNtry_ID, "GET", params);
 	 return json;
  }
@@ -200,7 +200,7 @@ public class UserFunctions {
 	 List<NameValuePair> params = new ArrayList<NameValuePair>();
 
 	 params.add(new BasicNameValuePair("semester", CurrentSemster));
-	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+	 params.add(new BasicNameValuePair("apiSecret", ""));
 	  json = jsonParser.makeHttpRequest(Subjects_currentSemster+GradeID, "GET", params);
 	 return json;
  }
@@ -213,7 +213,7 @@ public String getSubjectDetails(String sUbject_ID) throws IOException {
 	 List<NameValuePair> params = new ArrayList<NameValuePair>();
 
 	 params.add(new BasicNameValuePair("SUBJECT_ID",sUbject_ID ));
-	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+	 params.add(new BasicNameValuePair("apiSecret", ""));
 	  json = jsonParser.makeHttpRequest(Subject_details+sUbject_ID, "GET", params);
 	 return json;
 }
@@ -227,7 +227,7 @@ public String GetLessonDetails(String lesson_id) throws IOException {
 	 List<NameValuePair> params = new ArrayList<NameValuePair>();
 
 	 params.add(new BasicNameValuePair("LESSON_ID",lesson_id ));
-	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+	 params.add(new BasicNameValuePair("apiSecret", ""));
 	  json = jsonParser.makeHttpRequest(Lessons_details+lesson_id, "GET", params);
 	 return json;
 	
@@ -241,7 +241,7 @@ public String Login(String UN, String PW) throws IOException{
 
 	 params.add(new BasicNameValuePair("uname",UN ));
 	 params.add(new BasicNameValuePair("pword",PW ));
-	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+	 params.add(new BasicNameValuePair("apiSecret", ""));
 	  json = jsonParser.makeHttpRequest(LOGIN, "POST", params);
 	 return json;
 	
@@ -254,7 +254,7 @@ public String Register_vaildation(String email) throws IOException{
 	 List<NameValuePair> params = new ArrayList<NameValuePair>();
 
 	 params.add(new BasicNameValuePair("email",email ));
-	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+	 params.add(new BasicNameValuePair("apiSecret", ""));
 	  json = jsonParser.makeHttpRequest(CheckEmail_register, "POST", params);
 	 return json;
 	
@@ -267,7 +267,7 @@ public String Login_facebook( String Fb_ID,String Email) throws IOException{
 	 List<NameValuePair> params = new ArrayList<NameValuePair>();
 	 params.add(new BasicNameValuePair("fbid",Fb_ID ));
 	 params.add(new BasicNameValuePair("uname",Email ));
-	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+	 params.add(new BasicNameValuePair("apiSecret", ""));
 	  json = jsonParser.makeHttpRequest(LOGIN, "POST", params);
 	 return json;
 	
@@ -280,7 +280,7 @@ public String REGisteration(String email) throws IOException{
 	 List<NameValuePair> params = new ArrayList<NameValuePair>();
 
 	 params.add(new BasicNameValuePair("email",email ));
-	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+	 params.add(new BasicNameValuePair("apiSecret", ""));
 	  json = jsonParser.makeHttpRequest(Registeration, "POST", params);
 	 return json;
 	
@@ -295,7 +295,7 @@ public String Lesson_fehmt(String U_id,String U_Token,String Lesson_ID) throws I
 
 	 params.add(new BasicNameValuePair("user_id",U_id ));
 	 params.add(new BasicNameValuePair("user_token",U_Token ));
-	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+	 params.add(new BasicNameValuePair("apiSecret", ""));
 	  json = jsonParser.makeHttpRequest(Fehmt_Lesson+Lesson_ID, "POST", params);
 	 return json;
 }
@@ -309,7 +309,7 @@ public String User_details(String User_ID) throws IOException{
 	 List<NameValuePair> params = new ArrayList<NameValuePair>();
 
 	 params.add(new BasicNameValuePair("USER_ID",User_ID ));
-	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+	 params.add(new BasicNameValuePair("apiSecret", ""));
 	  json = jsonParser.makeHttpRequest(UserDetails+User_ID, "GET", params);
 	 return json;
 }
@@ -322,7 +322,7 @@ public String User_Notifications(String User_ID) throws IOException{
 	 List<NameValuePair> params = new ArrayList<NameValuePair>();
 
 	 params.add(new BasicNameValuePair("USER_ID",User_ID ));
-	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+	 params.add(new BasicNameValuePair("apiSecret", ""));
 	  json = jsonParser.makeHttpRequest(User_Notifications+User_ID+"/notifications", "GET", params);
 	 return json;
 }
@@ -334,7 +334,7 @@ public String GetBanner4ActionBar() throws IOException{
 
 	 // Building Parameters ( you can pass as many parameters as you want)
 	 List<NameValuePair> params = new ArrayList<NameValuePair>();
-	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+	 params.add(new BasicNameValuePair("apiSecret", ""));
 	  json = jsonParser.makeHttpRequest(Banner4, "GET", params);
 	 return json;
 }
@@ -345,7 +345,7 @@ public String GetBanner5Splash() throws IOException{
 
 	 // Building Parameters ( you can pass as many parameters as you want)
 	 List<NameValuePair> params = new ArrayList<NameValuePair>();
-	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+	 params.add(new BasicNameValuePair("apiSecret", ""));
 	  json = jsonParser.makeHttpRequest(Banner5, "GET", params);
 	 return json;
 }
@@ -354,7 +354,7 @@ public String GetBanner6insideScreens() throws IOException{
 	 String json;
 	   JsonParser1 jsonParser = new JsonParser1();
 	   List<NameValuePair> params = new ArrayList<NameValuePair>();
-	   params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+	   params.add(new BasicNameValuePair("apiSecret", ""));
 	 // Building Parameters ( you can pass as many parameters as you want)
 	
 
@@ -370,7 +370,7 @@ public String User_LatestVideos(String User_ID) throws IOException{
 	 List<NameValuePair> params = new ArrayList<NameValuePair>();
 
 	 params.add(new BasicNameValuePair("USER_ID",User_ID ));
-	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+	 params.add(new BasicNameValuePair("apiSecret", ""));
 	  json = jsonParser.makeHttpRequest(User_latest_videos+User_ID+"/lessons", "GET", params);
 	 return json;
 }
@@ -383,7 +383,7 @@ public String Search_lesson(String Item) throws IOException{
 	 List<NameValuePair> params = new ArrayList<NameValuePair>();
 
 	 params.add(new BasicNameValuePair("SEARCH_TERM", Item));
-	 params.add(new BasicNameValuePair("apiSecret", "b34034d8007f9ce33b40e27adfb4e73a"));
+	 params.add(new BasicNameValuePair("apiSecret", ""));
 	  json = jsonParser.makeHttpRequest(Search_url+Item, "GET", params);
 	 return json;
 }
