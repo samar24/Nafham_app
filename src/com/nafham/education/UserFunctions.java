@@ -30,7 +30,7 @@ public class UserFunctions {
     private String Banner4="http://www.nafham.com/api2/banner/4";
     private String Banner5="http://www.nafham.com/api2/banner/5";
     private String Banner6="http://www.nafham.com/api2/banner/6";
-    private String  apiSecret = "b34034d8007f9ce33b40e27adfb4e73a";
+    private String  apiSecret = "";
     private String Countries="http://www.nafham.com/api2/countries";
     private String CheckEmail_register="http://www.nafham.com/api2/rmv";
     private String UserTypes="http://www.nafham.com/api2/usertype";
