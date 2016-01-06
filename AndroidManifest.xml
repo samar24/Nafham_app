@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nafham.education"
+    android:versionCode="22"
+    android:versionName="1.1.8" >
+<supports-screens android:resizeable="true" 
+         android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+       
+
+    <uses-sdk
+       android:minSdkVersion="11" />
+    <meta-data android:name="com.google.android.gms.version"
+      />
+   
+  
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"  />
+    <uses-permission android:name="android.permission.VIBRATE" />
+   
+  
+
+    <application
+      android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_nafham"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+         android:hardwareAccelerated="true" 
+         android:windowSoftInputMode="adjustResize"
+       android:alwaysRetainTaskState="true"
+              android:launchMode="singleTask"
+         android:largeHeap="true"
+         
+          >
+       
+        <activity
+            android:name="com.nafham.education.SPLASH"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" 
+           android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+      
+        <activity
+            android:name="com.nafham.education.Login_page"
+            
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"
+           android:alwaysRetainTaskState="True"
+            android:configChanges="orientation|screenSize"
+           
+             >
+        </activity>
+       
+        <activity
+            android:name="com.nafham.education.Registeration"
+            android:windowSoftInputMode="adjustPan" 
+           android:screenOrientation="portrait"
+            >
+        </activity>
+       
+        <activity
+            android:name="com.nafham.education.MainActivity"
+          android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize"
+            android:alwaysRetainTaskState="true"
+
+             >
+        </activity>
+      <activity
+            android:name="com.nafham.education.CopyOfMainActivity"
+          android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize"
+            android:alwaysRetainTaskState="true"
+
+             >
+        </activity>
+        <activity
+            android:name="com.nafham.education.Browsing"
+            android:label="@string/title_activity_browsing"
+             android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+             >
+        </activity>
+       
+        <activity
+            android:name="com.nafham.education.MiddleScreen_home"
+             android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+             >
+        </activity>
+        <activity android:name="com.nafham.education.MainActivity_facebook"></activity>
+          <activity android:name="com.nafham.education.MainActivity_facebook1"></activity>
+         <activity android:name="com.facebook.LoginActivity"
+                  android:label="@string/app_name" />
+         
+        <meta-data  android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+    </application>
+
+</manifest>

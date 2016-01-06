@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <shape 
+        xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid 
+                android:color="@color/notifications_background_color">
+            </solid>
+            <stroke 
+                 android:width="0dp" 
+                >
+            </stroke>
+            <corners 
+                
+                 android:topRightRadius="9dip"
+                 android:topLeftRadius="9dip"
+                 android:bottomRightRadius="9dip"
+                  android:bottomLeftRadius="9dip"
+                >
+            </corners>
+
+</shape>

@@ -1,0 +1,71 @@
+   <android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Framelayout to display Fragments -->
+    <!--    <RelativeLayout 
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+           >-->
+    <FrameLayout  
+                android:id="@+id/frame_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+         android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+         >
+   </FrameLayout>
+      
+     <!--     </RelativeLayout>-->
+    <!-- Listview to display slider menu -->
+    <LinearLayout
+    android:id="@+id/left_drawer"
+    android:layout_height="match_parent"
+    android:layout_width="240dp"
+    android:orientation="vertical"
+    android:layout_gravity="end"
+    >
+     <LinearLayout
+    android:id="@+id/dd"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:background="@color/Nav_background_color"
+    >
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+      android:background="@drawable/s"
+        android:paddingBottom="7dp"
+          android:paddingTop="7dp"
+          android:hint="البحث"
+        android:paddingRight="30dp"
+           android:gravity="right"
+            android:layout_marginLeft="3dp"
+             android:layout_marginRight="3dp"
+              android:layout_marginTop="3dp"
+               android:layout_marginBottom="3dp"
+        >
+        
+    </EditText>
+     </LinearLayout>
+      <ListView
+        android:id="@+id/list_slidermenu"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+         android:layout_gravity="end"
+        android:choiceMode="singleChoice"
+         android:divider="@color/dividerColor"
+        android:dividerHeight="0.3dp"
+                android:background="@color/Nav_background_color"
+        android:listSelector="@drawable/active"
+      
+       />
+   </LinearLayout>
+  </android.support.v4.widget.DrawerLayout> 
+  

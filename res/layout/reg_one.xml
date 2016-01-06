@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:background="@color/BackGround_new"
+    >
+ 
+    <com.nafham.education.CircularImageView
+        android:id="@+id/button1"
+        android:layout_width="80dp"
+            android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        
+       android:background="@drawable/img_add_photoo"
+         />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+         android:layout_alignLeft="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:background="@drawable/reg_edit_text"
+        android:paddingBottom="7dp"
+          android:paddingTop="7dp"
+          android:hint="الاسم"
+        android:paddingRight="30dp"
+           android:gravity="right"
+           android:focusable="true"
+         >
+        
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+         android:layout_alignLeft="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:inputType="textEmailAddress"
+          android:background="@drawable/reg_edit_text"
+            android:paddingBottom="7dp"
+          android:paddingTop="7dp"
+            android:hint="البريد الالكترونى"
+             android:paddingRight="30dp"
+           android:gravity="right"
+           android:focusable="true"
+         />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:inputType="textPassword" 
+          android:background="@drawable/reg_edit_text"
+            android:paddingBottom="7dp"
+          android:paddingTop="7dp"
+          android:hint="كلمة المرور"
+           android:paddingRight="30dp"
+           android:gravity="right"
+           android:focusable="true"
+        />
+    
+     <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:inputType="textPassword" 
+          android:background="@drawable/reg_edit_text"
+            android:paddingBottom="7dp"
+          android:paddingTop="7dp"
+          android:hint="اعادة كلمة المرور "
+          android:paddingRight="30dp"
+           android:gravity="right"
+           android:focusable="true"
+        />
+    
+    
+    
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/btn"
+        android:text="اشتراك" 
+         android:textSize="11pt"
+        />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignTop="@+id/editText2"
+        android:paddingTop="17dp"
+      
+        android:layout_marginRight="7dp"
+        android:src="@drawable/mail_reg_one_new" />
+ <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_alignTop="@+id/editText1"
+        android:paddingTop="17dp"
+        android:layout_marginRight="7dp"
+        android:src="@drawable/name_reg_one_new" />
+ <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText3"
+        android:layout_alignTop="@+id/editText3"
+        android:paddingTop="17dp"
+        android:layout_marginRight="7dp"
+        android:src="@drawable/lock_reg_one_new" />
+ <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText4"
+        android:layout_alignTop="@+id/editText4"
+        android:paddingTop="17dp"
+        android:layout_marginRight="7dp"
+        android:src="@drawable/lock_reg_one_new" />
+    
+</RelativeLayout>

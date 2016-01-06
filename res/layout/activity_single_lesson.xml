@@ -1,0 +1,206 @@
+<!--  <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+        android:layout_height="fill_parent">-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_color" >
+
+    <fragment
+        android:id="@+id/youtubeplayerfragment"
+        android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+  <!--    <RelativeLayout
+        android:id="@+id/relativeLayout1" 
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@+id/youtubeplayerfragment"
+        android:background="@color/LinearLayoutBG" >
+
+        <LinearLayout
+            android:id="@+id/GradeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/lesson_screen_GradebackGroundcolor" >
+
+            <TextView
+                android:id="@+id/Grade_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:text="الصف الثانى الثانوى"
+                android:textColor="@color/lesson_screen_Gradetextcolor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/SubjectName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/GradeName"
+              android:layout_marginTop="4dp"
+            android:background="@color/lesson_screen_GradebackGroundcolor"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Subject_name_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:text="علوم بيئية وجيولجيا"
+                android:textColor="@color/lesson_screen_Gradetextcolor" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/LessonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/GradeName"
+            android:layout_below="@+id/GradeName"
+            android:layout_marginTop="22dp"
+            android:text="مفاهيم بيئية"
+            android:textSize="7pt"
+            android:textColor="@color/lesson_screen_lessonnameTextcolor" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignRight="@+id/LessonName"
+            android:layout_below="@+id/LessonName"
+            android:layout_marginTop="23dp"
+            android:background="@drawable/lesson_page_rounded" />
+
+        <TextView
+            android:id="@+id/ALdars_mn_adad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/GradeName"
+            android:layout_alignTop="@+id/imageView1"
+            android:text="الدرس من اعداد :"
+            android:textColor="@color/lesson_screen_lessonnameTextcolor" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="18dp"
+           android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/GradeName"
+            android:src="@drawable/arrow_480" />
+
+        <Button
+            android:id="@+id/FehmtButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/LessonName"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/fehmt_button_480"
+            android:paddingTop="50dp"
+            android:textColor="@color/notifications_color" />
+
+        <TextView
+            android:id="@+id/user_lesson_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView2"
+            android:layout_below="@+id/ALdars_mn_adad"
+            android:text="سمر ابو عبيد"
+            android:textColor="@color/lesson_screen_user_name_text_color"
+            android:textSize="7pt" />
+
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/RelatedLessons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+        android:background="@drawable/methods_480"
+        android:scrollbars="horizontal" >
+
+       <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/RelatedLesson"
+             android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            >
+           
+          
+             
+    </LinearLayout>
+     
+     
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/TAmaren"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RelatedLessons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+         android:layout_alignLeft="@+id/RelatedLessons"
+          android:layout_alignRight="@+id/RelatedLessons"
+        android:background="@drawable/tamaren_480" >
+       <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/TmarenLesson"
+             android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            >
+           
+             
+    </LinearLayout>
+    
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/TTbekat"
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TAmaren"
+          android:layout_alignRight="@+id/TAmaren"
+        android:layout_below="@+id/TAmaren"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/tatbekat_480"
+         >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/TTBEKAT_LESSON"
+             android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            >
+
+           
+             
+
+    </LinearLayout>
+   
+    </HorizontalScrollView>
+-->
+</RelativeLayout>
+<!--   </ScrollView>-->

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+         android:id="@+id/SUBJECTName"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_alignParentLeft="true"
+          android:layout_alignParentRight="true"
+         android:layout_marginTop="3dp"
+         android:layout_marginLeft="3dp"
+           android:layout_marginRight="3dp"
+         android:background="@drawable/main_box_480" 
+        
+         >
+       <LinearLayout
+             android:id="@+id/Subject_backGround"
+             android:layout_width="70dp"
+             android:layout_height="70dp"
+             android:background="@drawable/rounded_edge_subject_screen"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+         
+              >
+             <ImageView
+             android:id="@+id/Subject_Image"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/arabic" 
+             android:layout_gravity="center_vertical"
+                android:layout_marginLeft="19dp"
+             />
+         </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerVertical="true"
+         android:layout_marginRight="9dp"
+         android:layout_toLeftOf="@+id/Subject_backGround"
+         android:orientation="vertical" >
+
+         <TextView
+             android:id="@+id/Subject_name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="2dp"
+             android:layout_weight="1"
+             android:singleLine="true"
+             android:text="لغة عربية"
+             android:textSize="11pt"
+                android:layout_gravity="right"
+        android:gravity="right"
+              />
+
+         <TextView
+             android:id="@+id/Vidio_statiscs"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="1dp"
+             android:layout_weight="1"
+             android:singleLine="true"
+             android:text="شرح فيديو" 
+              android:textSize="7pt"
+                android:layout_gravity="right"
+        android:gravity="right"
+             />
+     </LinearLayout>
+
+     </RelativeLayout>

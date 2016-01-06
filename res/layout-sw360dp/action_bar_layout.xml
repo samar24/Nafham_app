@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+   
+     <WebView
+     android:id="@+id/BannerActionBar"
+     android:layout_width="70dp"
+     android:layout_height="wrap_content" 
+       android:layout_centerVertical="true"
+       android:layout_alignParentLeft="true"
+        
+     />
+    <!--    <WebView
+     android:id="@+id/BannerActionBar1"
+     android:layout_width="70dp"
+     android:layout_height="wrap_content" 
+       android:layout_centerVertical="true"
+       android:layout_marginLeft="3dp"
+      android:layout_toRightOf="@+id/BannerActionBar"
+         android:paddingBottom="4dp"
+           android:paddingTop="4dp"
+ 
+     />-->
+     <ImageView
+        android:id="@+id/Nav_drawerr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nav"
+          android:paddingRight="10dp"
+          android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+         />
+  <ImageView
+        android:id="@+id/TheMainLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:paddingRight="10dp"
+      android:layout_marginRight="40dp"
+        android:layout_alignRight="@+id/Nav_drawerr"
+        android:layout_centerVertical="true"
+          
+         />
+       <TextView
+        android:id="@+id/TheTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="انا"
+       android:textSize="7pt"
+        android:paddingBottom="2dp"
+       android:layout_marginRight="4dp"
+       android:layout_centerVertical="true"
+       android:layout_toLeftOf="@+id/TheMainLogo"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+  
+  </RelativeLayout>

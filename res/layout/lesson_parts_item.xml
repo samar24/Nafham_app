@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+      android:id="@+id/linearLayout3"
+      android:background="@android:color/transparent"
+     >
+
+  <RelativeLayout
+      android:id="@+id/linearLayout1"
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true">
+
+      <TextView
+          android:id="@+id/Order_part"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+         android:text="1"
+           android:textSize="13pt"
+         />
+  </RelativeLayout>
+
+  <TextView
+      android:id="@+id/Part_name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+            android:layout_marginRight="11dp"
+      android:layout_toLeftOf="@+id/linearLayout1"
+      android:layout_weight="1"
+      android:layout_marginLeft="50dp"
+      android:gravity="right"
+      android:paddingBottom="9dp"
+      android:paddingTop="10dp"
+      android:singleLine="true"
+      android:text="الجزء الاول"
+      android:textSize="12pt" />
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackGround_new"
+    tools:context=".Login_page" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/reg_edit_text"
+        android:ems="10"
+        android:hint="البريد الالكترونى"
+        android:inputType="textEmailAddress"
+        android:paddingBottom="7dp"
+        android:paddingRight="30dp"
+        android:paddingTop="7dp"
+        android:gravity="right"
+         >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/reg_edit_text"
+        android:ems="10"
+        android:hint="كلمة المرور"
+        android:inputType="textPassword"
+        android:paddingBottom="7dp"
+       
+         android:paddingRight="30dp"
+        android:paddingTop="7dp" 
+        android:gravity="right"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn"
+        android:text="الدخول" />
+
+    <com.facebook.widget.LoginButton
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+         android:layout_alignRight="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_fb_new_d"
+        android:text="الدخول باستخدام فيسبوك" />
+     
+<FrameLayout  
+                android:id="@+id/frame_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+         android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+         >
+   </FrameLayout>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_alignTop="@+id/editText1"
+        android:layout_marginRight="7dp"
+        android:paddingTop="8dp"
+        android:src="@drawable/mail_reg_one_new" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText3"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_marginRight="7dp"
+        android:paddingTop="8dp"
+        android:src="@drawable/lock_reg_one_new" />
+
+</RelativeLayout>

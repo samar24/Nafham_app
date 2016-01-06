@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@color/bg_color"
+    >
+    <ImageView
+     android:id="@+id/imageView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentTop="true"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="60dp"
+      android:src="@drawable/logo_b" />
+    <WebView
+        android:id="@+id/BrowsingBanner"
+         android:layout_width="70dp"
+        android:layout_height="wrap_content"
+     
+        android:layout_marginTop="250dp" 
+        android:layout_centerHorizontal="true"
+        
+        />
+ <WebView
+        android:id="@+id/BrowsingBanner1"
+         android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/BrowsingBanner"
+       android:layout_marginLeft="3dp"
+        android:layout_marginTop="245dp" 
+        
+        />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/btn"
+        android:text="الدخول" />
+     <Button
+        android:id="@+id/button23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn"
+        android:text="اشترك" />
+
+    <com.facebook.widget.LoginButton
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button23"
+        android:layout_alignRight="@+id/button23"
+        android:layout_below="@+id/button23"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_fb_new_d"
+        android:text="الاشتراك باستخدام فيسبوك" />
+<FrameLayout  
+                android:id="@+id/frame_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+         android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+         >
+   </FrameLayout>
+</RelativeLayout>

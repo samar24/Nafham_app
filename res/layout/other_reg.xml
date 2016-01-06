@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+     android:background="@color/BackGround_new"
+    >
+<Spinner
+      android:id="@+id/spinner1_ta5sos"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+      android:layout_centerHorizontal="true"
+     android:layout_marginLeft="6dp"
+      android:layout_marginRight="6dp"
+        android:background="@drawable/dropdown_browsing_480"
+      android:popupBackground="@drawable/btn_new_spinner" 
+      android:dropDownWidth="300dp"  
+       android:overScrollMode="ifContentScrolls"
+      android:spinnerMode="dialog"
+      />
+   <Spinner
+      android:id="@+id/spinner13_faculty"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+      android:layout_centerHorizontal="true"
+     android:layout_marginLeft="6dp"
+      android:layout_marginRight="6dp"
+      android:layout_below="@+id/spinner1_ta5sos"
+      android:background="@drawable/dropdown_browsing_480"
+      android:popupBackground="@drawable/btn_new_spinner" 
+      android:dropDownWidth="300dp"  
+       android:overScrollMode="ifContentScrolls"
+      android:spinnerMode="dialog"
+      />
+   <EditText
+        android:id="@+id/editText13_university"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner13_faculty"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_alignLeft="@+id/spinner13_faculty"
+        android:layout_alignRight="@+id/spinner13_faculty"
+        android:background="@drawable/reg_edit_text"
+        android:paddingBottom="7dp"
+          android:paddingTop="7dp"
+          android:hint="الجامعة"
+          android:paddingRight="8dp"
+           android:paddingLeft="9dp"
+         >
+         <requestFocus />
+    </EditText>
+    
+          <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText13_university"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn"
+        android:text="الانتهاء" />
+   
+</RelativeLayout>

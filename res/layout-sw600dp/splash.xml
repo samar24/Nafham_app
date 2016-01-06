@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_480" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:background="@drawable/logo_splash_480" >
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/SplashBanner"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+       android:layout_marginLeft="95dp"
+       
+        android:layout_marginTop="400dp" />
+     <WebView
+        android:id="@+id/SplashBanner1"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+       android:layout_toRightOf="@+id/SplashBanner"
+       
+        android:layout_marginTop="400dp" />
+      <TextView
+     android:id="@+id/textView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="370dp" 
+     android:layout_centerHorizontal="true"
+       android:textSize="10pt"
+     android:text="برعاية" />
+</RelativeLayout>
+

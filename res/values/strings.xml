@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--  <string name="app_id">292738100930337</string>-->
+   <string name="app_id">356233997758493</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_search">search</string>
+    <string name="Logo_title">title</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="app_name">Nafham</string>
+    <string name="action_settings">Settings</string>
+    <string name="UN">Username</string>
+    <string name="PWWWW">Password</string>
+    <string name="EMMM">Email</string>
+    <string name="GRADEE">grade</string>
+    <string name="REG">Register</string>
+    <string name="CONNN">Connect to Facebook</string>
+    <string name="title_activity_video_view">VideoViewActivity</string>
+    <string name="title_activity_android_thumbnail_list">AndroidThumbnailList</string>
+    <string name="title_activity_recording_vidio">RecordingVidio</string>
+    <string name="button">Button</string>
+    <string name="BRWSING">browse the app</string>
+    <string name="title_activity_log_in_page">LogInPage</string>	
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_expandable_list">ExpandableList</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="REGISTER">اشتراك</string>
+    <string name="registerVIAFB">اشتراك عبر فيسبوك</string>
+    <string name="EMAILLLLLLLLLLL">البريد الالكترونى</string>
+    <string name="PASSSSSSSSSS">كلمة المرور</string>
+    <string name="PASSSSSSSSSSS">كلمة المرور</string>
+    <string name="CONFIRMPASSSS">تاكيد كلمة المرور</string>
+    <string name="title_activity_registeration_complete">Registeration_complete</string>
+    <string name="title_activity_single_lesson">SingleLesson</string>
+    <string name="title_activity_video_list_demo">VideoListDemoActivity</string>
+    <string name="title_activity_main__dashboard">Main_Dashboard</string>
+    <string name="title_activity_subject_screen">Subject_screen</string>
+    <string name="RECORDDD">"record vidio "</string>
+    <string name="title_activity_upload">UPLOAD</string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>الاسم</item>
+        <item>الرئيسية</item>
+        <item>المسابقة</item>
+        <item>تصفح المواد الرئيسية</item>
+        <item>اعدادات</item>
+        <item>التنبيهات</item>
+         <item>ابحث عن درس</item>
+         <item>تسجيل الخروج</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/home</item>
+        <item>@drawable/home</item>
+        <item>@drawable/cup</item>
+        <item>@drawable/dropdown_nav_menu</item>
+        <item>@drawable/settings</item>
+        <item>@drawable/notifications_sidebar</item>
+         <item>@drawable/log_out</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_browsing">Browsing</string>
+
+</resources>

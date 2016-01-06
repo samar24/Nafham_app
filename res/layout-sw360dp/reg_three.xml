@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_color" >
+     <TextView
+     android:id="@+id/textView3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentTop="true"
+      android:layout_alignParentRight="true"
+    android:layout_centerHorizontal="true"
+      android:layout_marginTop="5dp"
+    android:layout_marginRight="15dp"
+      android:textSize="11pt"
+     android:text="اختر المواد المهتم بها" />
+ 
+  
+ <ListView
+                android:id="@+id/registeration_elemnts"
+                android:layout_width="wrap_content"
+                android:layout_height="380dp"
+                android:padding="4dip"
+         
+                android:layout_centerVertical="true"
+                 android:divider="@android:color/transparent"
+                 android:layout_below="@+id/textView3"
+                 android:layout_marginTop="5dp"
+                android:dividerHeight="10dp"
+               android:scrollbars="vertical"
+                android:clipToPadding="false"
+                android:layout_marginLeft="3dp"
+                 android:layout_marginRight="3dp"
+                 >
+            </ListView>
+
+  <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registeration_elemnts"
+       android:layout_marginLeft="3dp"
+                 android:layout_marginRight="3dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn"
+        android:text="التالى" />
+
+</RelativeLayout>

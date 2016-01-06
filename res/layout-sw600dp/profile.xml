@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_color" >
+            <ListView
+            android:id="@+id/the_list_OF_ta7desaaat"
+             android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         
+        android:background="@color/LinearLayoutBG"
+            android:padding="4dip"
+       android:clipToPadding="false"
+             android:scrollbars="vertical"
+             
+       >
+        </ListView>
+          
+  </RelativeLayout>

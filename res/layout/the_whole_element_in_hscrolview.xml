@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" 
+  android:paddingBottom="16dp"
+    >
+    <FrameLayout  android:id="@+id/imageView11" android:layout_width="match_parent" android:layout_height="200dp"
+     
+          >
+   <ImageView
+                android:layout_width="match_parent" 
+                android:id="@+id/imageView111"
+                android:layout_height="200dp" 
+                
+               />
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/play"
+       android:layout_gravity="center"
+        />
+
+</FrameLayout> 
+
+
+            <!--    <com.nafham.education.CircularImageView
+                  android:id="@+id/user_photo_lesson"
+                  android:layout_width="53dp"
+                  android:layout_height="53dp"
+                  android:layout_alignParentRight="true"
+                 
+                  android:layout_marginRight="14dp"
+                  android:layout_marginTop="200dp"
+                  android:background="@drawable/lesson_page_rounded" />
+-->
+              <TextView
+                  android:id="@+id/TextOnImage11"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                
+                  android:layout_marginRight="10dp"
+                   android:layout_marginTop="215dp"
+                  android:text=""
+                    android:layout_alignParentRight="true"
+                  android:textSize="10pt" />
+
+              <TextView
+                  android:id="@+id/textView1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="200dp"
+                  android:text="من اعداد" 
+                   android:textSize="9pt" 
+                  />
+
+</RelativeLayout>

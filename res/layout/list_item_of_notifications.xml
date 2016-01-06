@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bullet" />
+
+<TextView
+    android:id="@+id/theNotification"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:layout_alignRight="@+id/imageView1"
+    android:layout_marginRight="25dp"
+    android:layout_toLeftOf="@+id/imageView1"
+    android:text="TextView"
+     android:layout_centerHorizontal="true"
+    android:textColor="@color/profile_screen_Number_color" />
+
+</RelativeLayout>

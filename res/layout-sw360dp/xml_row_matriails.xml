@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rlMain"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+     
+        >
+
+        <RelativeLayout
+            android:id="@+id/rlInner"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+             android:layout_marginLeft="10dp"
+             android:background="@drawable/rounded_edge_profile"
+             >
+
+            <TextView
+                android:id="@+id/tvContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                 android:layout_alignParentRight="true"
+                android:text="subject1"
+                android:textColor="#000000" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:paddingLeft="7dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+     android:paddingBottom="5dp"
+    android:textSize="9pt"
+      android:textColor="#4e4e4e" />
+   <!--   android:background="@drawable/spinner_click"-->
+  

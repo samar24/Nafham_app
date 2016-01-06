@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@color/BackGround_new"
+     >
+      <TextView
+     android:id="@+id/textView3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentTop="true"
+      android:layout_alignParentRight="true"
+    android:layout_centerHorizontal="true"
+      android:layout_marginTop="5dp"
+    android:layout_marginRight="15dp"
+      android:textSize="11pt"
+     android:text="اضف ابناً" />
+ <Spinner
+      android:id="@+id/spinner13_mnhg_dwla"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/textView3"
+     android:layout_marginTop="10dp"
+      android:layout_centerHorizontal="true"
+     android:layout_marginLeft="6dp"
+      android:layout_marginRight="6dp"
+      android:background="@drawable/dropdown_browsing_480"
+      android:popupBackground="@drawable/btn_new_spinner" 
+      android:dropDownWidth="300dp"  
+       android:overScrollMode="ifContentScrolls"
+      android:spinnerMode="dialog"
+      />
+  <Spinner
+      android:id="@+id/spinner1_saf"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+      android:layout_centerHorizontal="true"
+     android:layout_marginLeft="6dp"
+      android:layout_marginRight="6dp"
+      android:layout_below="@+id/spinner13_mnhg_dwla"
+       android:background="@drawable/dropdown_browsing_480"
+      android:popupBackground="@drawable/btn_new_spinner" 
+      android:dropDownWidth="300dp"  
+       android:overScrollMode="ifContentScrolls"
+      android:spinnerMode="dialog" 
+      />
+  <EditText
+        android:id="@+id/editText13_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1_saf"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_alignLeft="@+id/spinner1_saf"
+        android:layout_alignRight="@+id/spinner1_saf"
+        android:background="@drawable/reg_edit_text"
+        android:paddingBottom="7dp"
+          android:paddingTop="7dp"
+          android:hint="البريد الالكترونى"
+          android:paddingRight="8dp"
+           android:paddingLeft="9dp"
+         >
+         <requestFocus />
+    </EditText>
+    <EditText
+        android:id="@+id/editText13_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText13_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignLeft="@+id/editText13_email"
+        android:layout_alignRight="@+id/editText13_email"
+        android:background="@drawable/reg_edit_text"
+        android:paddingBottom="7dp"
+          android:paddingTop="7dp"
+          android:hint="الاسم"
+          android:paddingRight="8dp"
+           android:paddingLeft="9dp"
+         >
+         <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1_addANother"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText13_name"
+        android:layout_below="@+id/editText13_name"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="48dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="اضف ابناً اخر" 
+        android:background="@drawable/roundedbutton"
+        />
+
+    <Button
+        android:id="@+id/button2_Skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="48dp"
+         android:layout_below="@+id/editText13_name"
+        android:layout_alignLeft="@+id/editText13_name"
+        android:layout_marginLeft="20dp"
+         android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="الانتهاء"
+         android:background="@drawable/roundedbutton"
+         />
+
+</RelativeLayout>

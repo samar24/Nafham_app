@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+     >
+
+ <EditText
+     android:id="@+id/Government"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/School"
+     android:layout_alignTop="@+id/School"
+     android:layout_marginTop="54dp"
+     android:background="@drawable/text_wide_480"
+     android:ems="10"
+     android:hint="المحافظة"
+     android:paddingLeft="20dp"
+     android:paddingRight="20dp"
+     android:paddingTop="15dp" />
+
+  <EditText
+      android:id="@+id/editText1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/School"
+      android:layout_alignRight="@+id/School"
+      android:layout_marginBottom="31dp"
+      android:background="@drawable/text_small_480"
+      android:ems="10"
+      android:hint="الاسم"
+      android:inputType="textPersonName"
+      android:paddingLeft="20dp"
+      android:paddingRight="20dp"
+      android:paddingTop="15dp" />
+
+  <EditText
+      android:id="@+id/School"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="184dp"
+      android:background="@drawable/text_wide_480"
+      android:ems="10"
+      android:hint="المدرسة"
+      android:paddingLeft="20dp"
+      android:paddingRight="20dp"
+      android:paddingTop="15dp" />
+
+ <Button
+     android:id="@+id/button3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/Government"
+     android:layout_below="@+id/Government"
+     android:layout_marginTop="21dp"
+     android:background="@drawable/button_sittings_480"
+     android:text="تعديل بياناتى"
+     android:textColor="@color/notifications_color"
+     android:textSize="7pt" />
+
+           <ImageView
+               android:id="@+id/CoverPhoto"
+               android:layout_width="wrap_content"
+               android:layout_height="140dp"
+               android:layout_alignParentTop="true"
+               android:layout_alignRight="@+id/editText1"
+               />
+
+           <com.nafham.education.CircularImageView
+               android:id="@+id/User_Photo"
+               android:layout_width="99dp"
+               android:layout_height="99dp"
+               android:layout_alignBottom="@+id/editText1"
+               android:layout_alignLeft="@+id/CoverPhoto"
+               android:src="@drawable/profile_pic_480" />
+             <Button
+               android:id="@+id/button1"
+               android:layout_width="wrap_content"
+               android:layout_height="25dp"
+               android:layout_alignLeft="@+id/button2"
+               android:layout_alignTop="@+id/CoverPhoto"
+               android:background="@drawable/change_picsittings__480" />
+
+             <Button
+                 android:id="@+id/button2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="25dp"
+                 android:layout_alignBaseline="@+id/editText1"
+                 android:layout_alignBottom="@+id/editText1"
+                 android:layout_toLeftOf="@+id/editText1"
+                 android:background="@drawable/change_picsittings__480" />
+
+</RelativeLayout>

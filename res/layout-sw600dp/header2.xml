@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="155dp"
+               android:orientation="vertical"
+               android:background="@android:color/transparent"
+                android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+                >
+<RelativeLayout  
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:background="@drawable/rounded_edge_profile" >
+         <com.nafham.education.CircularImageView
+            android:id="@+id/User_Photo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="16dp"  
+           android:src="@drawable/profile_pic_480"
+            />
+          <!--    android:src="@drawable/profile_pic_480"--> 
+        
+           <TextView
+            android:id="@+id/User_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@+id/User_Photo"
+            android:text="TextView"
+            android:textSize="11pt" 
+             
+            />
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignRight="@+id/User_name"
+               android:layout_below="@+id/User_name"
+               android:layout_marginTop="5dp"
+               android:orientation="vertical" 
+             
+               >
+
+               <TextView
+                   android:id="@+id/UserTypeAndHisGrade"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="الصفالخاصباليوزر"
+                     android:layout_gravity="right"
+                   android:textColor="@color/profile_screen_user_info_color"
+                   android:textSize="8pt" />
+
+               <TextView
+                   android:id="@+id/School"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="4dp"
+                   android:text="المدرسةالخاصةباليوزر"
+                   android:layout_gravity="right"
+                   android:textColor="@color/profile_screen_user_info_color"
+                   android:textSize="8pt" />
+
+               <TextView
+                   android:id="@+id/GovernomentAndCountry"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="4dp"
+                   android:text="المحافظةوالدولة"
+                     android:layout_gravity="right"
+                   android:textColor="@color/profile_screen_user_info_color"
+                   android:textSize="8pt" />
+           </LinearLayout>
+
+         
+         
+         </RelativeLayout>
+           </LinearLayout>
+           

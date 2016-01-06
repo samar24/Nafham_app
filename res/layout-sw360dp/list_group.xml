@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lesson_box_480"
+     >
+
+ <TextView
+     android:id="@+id/lblListHeader"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentRight="true"
+     android:layout_centerVertical="true"
+     android:layout_marginRight="12dp"
+     android:textSize="10pt"
+     android:text="المادة الاولى" />
+
+</RelativeLayout>

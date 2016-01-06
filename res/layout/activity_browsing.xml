@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_color" >
+  
+
+   <!--  <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignRight="@+id/spinner3"
+         android:layout_below="@+id/spinner3"
+         android:layout_marginRight="22dp"
+         android:layout_marginTop="36dp"
+         android:text="لحفظ بياناتك" />
+
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/textView1"
+          android:layout_alignBottom="@+id/textView1"
+          android:layout_alignLeft="@+id/spinner3"
+          android:text="سجل اشتراك جديد"
+          android:textStyle="bold" />
+
+ <TextView
+     android:id="@+id/textView4"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignRight="@+id/textView1"
+     android:layout_below="@+id/textView1"
+     android:layout_marginTop="24dp"
+    
+     android:text="او سجل دخول"
+     android:textStyle="bold" />
+
+ <TextView
+     android:id="@+id/textView3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignBaseline="@+id/textView4"
+     android:layout_alignBottom="@+id/textView4"
+     android:layout_alignParentLeft="true"
+     android:text="اذا كنت مشترك بالفعل" />-->
+
+ <ImageView
+     android:id="@+id/imageView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentTop="true"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="24dp"
+      android:src="@drawable/logo_browsing" />
+
+ <TextView
+     android:id="@+id/imageView2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/imageView1"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="21dp"
+     android:textSize="10pt"
+    android:textColor="#808080"
+    />
+   
+  <Spinner
+      android:id="@+id/spinner1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/imageView2"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="19dp"
+      android:layout_marginRight="10dp"
+       android:layout_marginLeft="10dp"
+      android:background="@drawable/dropdown_browsing_480"
+      android:popupBackground="@android:color/transparent" 
+      android:dropDownWidth="500dp"  
+      />
+  
+  <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+        android:layout_below="@+id/spinner1"
+        android:layout_alignRight="@+id/spinner1"
+          android:layout_alignLeft="@+id/spinner1"
+          android:layout_marginTop="20dp"
+        android:background="@drawable/dropdown_browsing_480"
+         android:popupBackground="@android:color/transparent"
+         android:dropDownWidth="500dp"  
+        />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner2"
+         android:layout_alignRight="@+id/spinner2"
+          android:layout_alignLeft="@+id/spinner2"
+        android:layout_centerHorizontal="true"
+         android:layout_marginTop="15dp"
+        android:background="@drawable/dropdown_browsing_480"
+           android:popupBackground="@android:color/transparent"
+           android:dropDownWidth="500dp"  
+        />
+
+   <WebView
+        android:id="@+id/BrowsingBanner"
+         android:layout_width="70dp"
+        android:layout_height="wrap_content"
+     
+        android:layout_marginTop="425dp" 
+        android:layout_centerHorizontal="true"
+        
+        />
+ <WebView
+        android:id="@+id/BrowsingBanner1"
+         android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/BrowsingBanner"
+       android:layout_marginLeft="3dp"
+        android:layout_marginTop="420dp" 
+        
+        />
+
+ <TextView
+     android:id="@+id/textView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="395dp" 
+     android:layout_centerHorizontal="true"
+      android:textSize="7pt"
+    android:textColor="#808080"
+     android:text="برعاية" />
+  
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+       android:background="@color/bg_color"
+     >
+     <RelativeLayout
+        android:id="@+id/relativeLayout1" 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+       android:layout_alignParentTop="true"
+         android:layout_alignParentRight="true"
+           android:layout_alignParentLeft="true"
+        android:background="@color/LinearLayoutBG" >
+
+
+         <TextView
+             android:id="@+id/LessonName"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentTop="true"
+             android:layout_marginRight="8dp"
+             android:layout_marginTop="3dp"
+             android:paddingBottom="3dp"
+             android:text="مفاهيم بيئية"
+             android:textColor="@color/lesson_screen_lessonnameTextcolor"
+             android:textSize="13pt" />
+       
+     </RelativeLayout>
+       <ListView
+                android:id="@+id/lS_parts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dip"
+                android:layout_below="@+id/relativeLayout1"
+                android:layout_marginTop="4dp"
+                android:layout_centerVertical="true"
+                 android:divider="@android:color/transparent"
+                android:dividerHeight="0.3dp"
+               android:scrollbars="none"
+                android:clipToPadding="false"
+                 >
+            </ListView>
+   </RelativeLayout>
+ 

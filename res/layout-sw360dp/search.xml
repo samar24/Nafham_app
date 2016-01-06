@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!--  <RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+          android:layout_marginLeft="15dp"
+        android:background="@drawable/results_search_480" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              android:textSize="8pt"
+              android:layout_centerVertical="true"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="23dp"
+              android:paddingBottom="3dp"
+            android:singleLine="true"
+            android:text="تائج البحث عن " />
+    </RelativeLayout>-->
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginRight="4dp"
+           android:layout_marginLeft="4dp"
+         android:padding="6dip"
+        android:background="@color/LinearLayoutBG"
+          android:clipToPadding="false"
+      
+         >
+    </ListView>
+
+    <!--  <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp"
+        android:layout_toRightOf="@+id/button1"
+        android:background="@drawable/input_search_480"
+       
+        android:layout_marginRight="20dp"
+         android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="اكتب كلمة البحث"
+        android:maxLength="1400"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="4dp"
+          android:paddingBottom="4dp"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>-->
+
+  <!--    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText1"
+         android:layout_alignBottom="@+id/editText1"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/my_buttton" />
+-->
+<ProgressBar
+       style="?android:attr/progressBarStyle"
+       android:layout_centerInParent="true"
+       android:id="@+id/productlist_progressbar"
+       android:visibility="gone"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+</RelativeLayout>

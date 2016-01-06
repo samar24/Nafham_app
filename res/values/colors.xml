@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color
+        name="arabic_color"
+        >#74ce8e</color>
+      <color
+        name="Lessons_titles"
+        >#f9fafa</color>
+      <color
+        name="chemstry_color"
+        >#78d0e6</color>
+       <color
+        name="bg_color"
+        >#eaeaea</color>
+       <color
+        name="drsat_color"
+        >#ea756a</color>
+        <color
+        name="math"
+        >#446381</color>
+        
+         <color
+        name="notifications_background_color"
+        >#d72e2e</color>
+         
+          <color
+        name="Nav_background_color"
+        >#2c2f38</color>
+          
+            <color
+        name="notifications_color"
+        >#FFFFFF</color>
+            
+              <color
+        name="dividerColor"
+        >#21242c</color>
+               <color
+        name="LinearLayoutBG"
+        >#f9f9f9</color>
+                <color
+        name="lesson_screen_Gradetextcolor"
+        >#9c9c9c</color>
+                 <color
+        name="lesson_screen_GradebackGroundcolor"
+        >#f2f2f2</color>
+                  <color
+        name="lesson_screen_lessonnameTextcolor"
+        >#131519</color>
+                    <color
+        name="al_dars_mn_aadad_text_color"
+        >#757575</color>
+                     <color
+        name="lesson_screen_user_name_text_color"
+        >#35afe3</color>
+                      <color
+        name="profile_screen_Number_color"
+        >#0088cf</color>
+                        <color
+        name="profile_screen_user_info_color"
+        >#7f7f7f</color>
+                       <color
+        name="Browsing_backGround_color"
+        >#28bcea</color>    
+          <color
+        name="theLessonsScreenText"
+        >#515151</color>    
+        
+              <color name="Navy_blue_subject_screen">#0066FF</color>  
+               <color name="YELLOW_Light">#FFFF66</color> 
+                <color name="BackGround_new">#f0f2f5</color>  
+                 <color name="ColourZorar">#32b7e0</color>                
+</resources>

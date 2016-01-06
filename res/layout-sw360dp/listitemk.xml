@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/box_480" 
+     >
+
+  <RelativeLayout
+      android:id="@+id/linearLayout1"
+      android:layout_width="80dp"
+      android:layout_height="80dp"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true"
+      android:background="@color/chemstry_color">
+
+      <ImageView
+          android:id="@+id/Subject_Image"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+          />
+  </RelativeLayout>
+
+  <TextView
+      android:id="@+id/subjectName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+            android:layout_marginRight="11dp"
+      android:layout_toLeftOf="@+id/linearLayout1"
+      android:layout_weight="1"
+      android:layout_marginLeft="50dp"
+      android:gravity="right"
+      android:paddingBottom="5dp"
+      android:paddingTop="6dp"
+      android:singleLine="true"
+      android:text="كمياء"
+      android:textSize="10pt" />
+
+</RelativeLayout>

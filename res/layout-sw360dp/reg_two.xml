@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@color/BackGround_new"
+ >
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:background="@color/BackGround_new"
+    android:paddingBottom="20dp"
+    >
+ <Spinner
+      android:id="@+id/spinner1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+     android:layout_below="@+id/textView3"
+      android:layout_centerHorizontal="true"
+     android:layout_marginLeft="3dp"
+      android:layout_marginRight="3dp"
+       android:background="@drawable/dropdown_browsing_480"
+      android:popupBackground="@drawable/btn_new_spinner" 
+      android:dropDownWidth="300dp"  
+      android:overScrollMode="ifContentScrolls"
+      android:spinnerMode="dialog"
+      />
+   <Spinner
+      android:id="@+id/spinner13"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+      android:layout_centerHorizontal="true"
+     android:layout_marginLeft="3dp"
+      android:layout_marginRight="3dp"
+      android:layout_below="@+id/spinner1"
+      android:background="@drawable/dropdown_browsing_480"
+      android:popupBackground="@drawable/btn_new_spinner" 
+      android:dropDownWidth="300dp"  
+       android:overScrollMode="ifContentScrolls"
+      android:spinnerMode="dialog"
+      />
+ <Spinner
+      android:id="@+id/spinner19"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+      android:layout_centerHorizontal="true"
+     android:layout_marginLeft="3dp"
+      android:layout_marginRight="3dp"
+      android:layout_below="@+id/spinner13"
+        android:background="@drawable/dropdown_browsing_480"
+      android:popupBackground="@drawable/btn_new_spinner" 
+      android:dropDownWidth="300dp"  
+       android:overScrollMode="ifContentScrolls"
+      android:spinnerMode="dialog"
+      />
+   
+   <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignRight="@+id/spinner19"
+       android:layout_below="@+id/spinner19"
+       android:layout_marginTop="11dp"
+       android:text="بيانات الاتصال" />
+
+   <ImageView
+       android:id="@+id/imageView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/textView1"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="10dp"
+       android:src="@drawable/separator_register_new" />
+ <Spinner
+      android:id="@+id/spinner133"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+      android:layout_centerHorizontal="true"
+     android:layout_marginLeft="3dp"
+      android:layout_marginRight="3dp"
+      android:layout_below="@+id/imageView1"
+         android:background="@drawable/dropdown_browsing_480"
+      android:popupBackground="@drawable/btn_new_spinner" 
+      android:dropDownWidth="300dp"  
+       android:overScrollMode="ifContentScrolls"
+      android:spinnerMode="dialog"
+      />
+ <Spinner
+      android:id="@+id/spinner13333"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+      android:layout_centerHorizontal="true"
+     android:layout_marginLeft="3dp"
+      android:layout_marginRight="3dp"
+      android:layout_below="@+id/spinner133"
+        android:background="@drawable/dropdown_browsing_480"
+      android:popupBackground="@drawable/btn_new_spinner" 
+      android:dropDownWidth="300dp"  
+       android:overScrollMode="ifContentScrolls"
+      android:spinnerMode="dialog"
+      />
+
+ <TextView
+     android:id="@+id/textView2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignRight="@+id/spinner13333"
+     android:layout_below="@+id/spinner13333"
+     android:layout_marginTop="11dp"
+     android:text="رقم الهاتف" />
+ <EditText
+        android:id="@+id/editText13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_alignLeft="@+id/spinner13333"
+        android:layout_alignRight="@+id/spinner13333"
+        android:background="@drawable/reg_edit_text"
+        android:paddingBottom="7dp"
+          android:paddingTop="7dp"
+          android:hint="+20"
+          android:paddingRight="8dp"
+           android:paddingLeft="9dp"
+         >
+         <requestFocus />
+    </EditText>
+
+ <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_alignLeft="@+id/editText13"
+        android:layout_alignRight="@+id/editText13"
+        android:background="@drawable/btn"
+        android:text="التالى" />
+
+ <TextView
+     android:id="@+id/textView3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentTop="true"
+      android:layout_alignParentRight="true"
+    android:layout_centerHorizontal="true"
+      android:layout_marginTop="5dp"
+      android:layout_marginRight="10dp"
+      android:textSize="11pt"
+     android:text="اكمل بياناتك" />
+ 
+</RelativeLayout>
+</ScrollView>
